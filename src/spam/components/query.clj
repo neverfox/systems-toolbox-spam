@@ -23,7 +23,7 @@
   (let [in-ch (chan)
         out-ch (chan)]
     (info "Query compontent started")
-    (pipe out-ch in-ch)
+    ;(pipe in-ch out-ch)
     (out-loop put-fn out-ch)
     {:state (atom {:in-ch  in-ch
                    :out-ch out-ch})}))
