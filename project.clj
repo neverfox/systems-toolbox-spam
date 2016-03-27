@@ -1,4 +1,4 @@
-(defproject systems-toolbox-spam "0.1.0-SNAPSHOT"
+(defproject systems-toolbox-spam "0.1.0"
   :description "Geting spammed with messages in systems-toolbox"
   :url "https://github.com/neverfox/systems-toolbox-spam"
   :dependencies [[aero "0.2.0"]
